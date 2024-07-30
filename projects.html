@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv ="X-UA-Compatible" content="IF=edge">
+    <meta name="viewport" content=""width=device-width, initial-scale="1.0">
+    <title>Aletheia Enterprises - Brooklin</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="./img/AE Logo 2.png" alt="AE Logo" class="greenLogo">
+        <h1>Aletheia Enterprises - Brooklin Charlton</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+    <section id="languages">
+        <h2>Coding Languages</h2>
+        <p>Through the amazing SheCodes Program, I've become proficient in the following coding languages:</p>
+        <div class="coding div">
+            <img class="coding-icon" src="./img/html logo.png"
+                alt="HTML Logo" />
+            <img class="coding-icon" src="./img/css logo.png"
+                alt="CSS Logo" />
+            <img class="coding-icon" src="./img/python logo.png"
+                alt="Python Logo" />
+            <img class="coding-icon" src="./img/react logo.png"
+                alt="React Logo" />
+            <img class="coding-icon" src="./img/django logo.png"
+                alt="Django Logo" />
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Here are some of my projects:</p>
+        <ul>
+            <li>Project 1: Description</li>
+            <li>Project 2: Description</li>
+            <li>Project 3: Description</li>
+        </ul>
+    </section>
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('open');
+        });
+    </script>
+</body>
+<footer>
+    <div>
+    <a href="https://github.com/BrooklinC/">
+        <img class="socials-icon" src="./img/github logo.png"
+            alt="The Github logo" />
+    </a>
+    <a href="https://au.linkedin.com/in/brooklinc">
+        <img class="socials-icon" src="./img/linkedin logo.png"
+            alt="The LinkedIn logo" />
+    </a>
+    </div>
+</footer>
+</html>
