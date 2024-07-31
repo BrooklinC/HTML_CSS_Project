@@ -5,20 +5,11 @@
 ## Project Requirements
 
 ### Content
- Add a short paragraph describing the features below. What aesthetic and technical choices did you make? 
-- [ ] At least one profile picture
-- [ ] Biography (at least 100 words)
-- [ ] Functional Contact Form
-- [ ] "Projects" section
-- [ ] Links to external sites, e.g. GitHub and LinkedIn.
+The colour scheme I chose is based on my own business, Aletheia Enterprises. The front page features an about me section with an amazing shot of me drinking wine in the Barossa (fun times). It then has a brief snapshot of who I am and highlights some of my professional experience. The Contact Form is at the bottom of the page and can be reached either through scrolling down or clicking the Contact Me in the header. The Projects page is a separate HTML page and can be reached by selecting Projects in the Header. In the Projects page there is a Coding languages and Projects section. There are functional links to my Github and LinkedIn on both pages. 
 ​
 ### Technical
  Add a short paragraph describing the features below. What strategies or design decisions did you work from? 
-- [ ] At least 2 web pages.
-- [ ] Version controlled with Git
-- [ ] Deployed on GitHub pages.
-- [ ] Implements responsive design principles.
-- [ ] Uses semantic HTML.
+There are 2 web pages - a Home page and a Projects page. Everything has been version controlled with Git and deployed on Github pages. There are some basic responsive design principles with the hamburger navigation and contact form reshaping but honestly this is not yet a strong suit of mine. I've attempted to use semantic HTML but not sure this is a strong suit either.
 
 ### Bonus (optional)
  Add a short paragraph describing the features below, if you included any. 
