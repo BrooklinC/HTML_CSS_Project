@@ -18,19 +18,31 @@
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="#contact">Contact Me</a></li>
             </ul>
+            <img src="./img/close.png" alt="Close Icon" width="20px" class="close-button">
             <div class="hamburger">
                 <div class="bar"></div>
                 <div class="bar"></div>
                 <div class="bar"></div>
             </div>
         </nav>
+        <nav>
+            <ul class="desktop-nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
     </header>
     <section id="about">
         <h2>About Me</h2>
-        <img src="./img/brooklin.jpg" alt="Brooklin Charlton" class="profilie-photo">
+        <img src="./img/brooklin.jpg" alt="Brooklin Charlton" class="profile-photo">
         <p>Hello and welcome, I'm Brooklin Charlton, an experienced Project and Program Manager, lover of travel and coveter of wine.         
         I have a strong background working in complex, transformational Programs so I have a passion for bringing order to chaos
-        and delivering great outcomes for stakeholders. Some key programs I've worked on include being Program Manager for the Suncorp "workplace of the future", 
+        and delivering great outcomes for stakeholders. 
+        </p>
+
+        <p>
+        Some key programs I've worked on include being Program Manager for the Suncorp "workplace of the future", 
         implementing 27 new enterprise level technologies including the largest software defined access network in the southern hemisphere and purchasing 5000 laptops during covid. 
         I've also worked on Canada's $35bn shipbuilding program, effectively building a shipyard from a greenfield state to be capable of designing and building ships for the Canadian Navy and Coast Guard. 
         My goal at the moment is to build Aletheia Enterprises, I'm ready to be my own boss again and build an amazing team that delivers quality results for clients.
@@ -51,9 +63,18 @@
     <script>
         const hamburger = document.querySelector('.hamburger');
         const navLinks = document.querySelector('.nav-links');
+        const closeButton = document.querySelector('.close-button');
 
         hamburger.addEventListener('click', () => {
             navLinks.classList.toggle('open');
+            hamburger.classList.add('hidden');
+            closeButton.classList.add('active');
+        })
+
+        closeButton.addEventListener('click', () => {
+            navLinks.classList.remove('open');
+            closeButton.classList.remove('active');
+            hamburger.classList.remove('hidden');
         });
     </script>
 </body>
