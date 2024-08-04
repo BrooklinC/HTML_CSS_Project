@@ -25,4 +25,4 @@ Screenshots included
 
 [Mobile Navigation 1](./img/BC_mobilenav.png)
 
-[Mobile Navigation 2](.img/BC_mobilenav2.png)
+[Mobile Navigation 2](./img/BC_mobilenav2.png)
